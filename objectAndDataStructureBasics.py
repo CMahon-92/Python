@@ -1,3 +1,5 @@
+#<--------------------------NUMBERS/ARITHMETIC----------------------------->
+
 #variables to use for equations
 x = 4
 y = 3
@@ -34,3 +36,13 @@ print(part1)
 part2 = (x+y) * (y+x)
 print(part2)
 
+#<--------------------------VARIABLE ASSIGNMENTS----------------------------->
+#making math problems easier to read using variables
+myIncome = 55000
+taxes = .12
+myTaxes = myIncome * taxes
+print(myTaxes)
+
+#what data type is myIncome and myTaxes
+print(type(myIncome))
+print(type(myTaxes))
